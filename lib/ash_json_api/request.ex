@@ -281,6 +281,8 @@ defmodule AshJsonApi.Request do
 
       ["ext"] ->
         true
+      ["charset"] ->
+        true
 
       ["profile"] ->
         true
